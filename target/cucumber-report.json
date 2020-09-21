@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4009509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User can confirm Click for JS prompt alert",
+        "description": "",
+        "id": "confirm-click-for-js-prompt-alert;user-can-confirm-click-for-js-prompt-alert;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 650930300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3196520900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to  http://the-internet.herokuapp.com Homepage",
+            "match": {
+              "location": "JSpromptSteps.browse_to_http_the_internet_herokuapp_com_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3206046900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the JavaScript Alerts link",
+            "match": {
+              "location": "JSpromptSteps.click_on_the_JavaScript_Alerts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3072196900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Click for JS Prompt button",
+            "match": {
+              "location": "JSpromptSteps.click_on_Click_for_JS_Prompt_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2020479100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Insert \"abc12\" on textbox and accepts prompt alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc12",
+                  "offset": 8
+                }
+              ],
+              "location": "JSpromptSteps.insert_on_textbox_and_accepts_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39254500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify  result confirmation matches \"abc12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc12",
+                  "offset": 37
+                }
+              ],
+              "location": "JSpromptSteps.verify_result_confirmation_matches(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm Click for JS prompt alert",
+    "description": "",
+    "id": "confirm-click-for-js-prompt-alert",
+    "keyword": "Feature",
+    "uri": "JSprompt.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
