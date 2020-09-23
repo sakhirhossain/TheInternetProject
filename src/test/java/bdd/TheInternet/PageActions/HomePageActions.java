@@ -31,4 +31,13 @@ public class HomePageActions {
 		
 	}
 	
+public void ClickEntryAD() throws Exception{
+	
+	Thread.sleep(2000);
+		
+	HomePageLocatorObj.lnkEntryAd.click();
+		
+	}
+
+	
 }
