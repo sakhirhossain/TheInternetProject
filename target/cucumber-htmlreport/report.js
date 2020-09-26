@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4026285900,
+  "duration": 4392594400,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,21 +48,21 @@ formatter.match({
   "location": "EntryAdSteps.user_Browses_to_http_the_internet_herokuapp_com()"
 });
 formatter.result({
-  "duration": 2995762300,
+  "duration": 3311415100,
   "status": "passed"
 });
 formatter.match({
   "location": "EntryAdSteps.user_navigates_to_Entry_Ad()"
 });
 formatter.result({
-  "duration": 2204278900,
+  "duration": 2329793400,
   "status": "passed"
 });
 formatter.match({
   "location": "EntryAdSteps.user_clicks_on_close_button()"
 });
 formatter.result({
-  "duration": 3060039700,
+  "duration": 3064917900,
   "status": "passed"
 });
 formatter.match({
@@ -75,11 +75,11 @@ formatter.match({
   "location": "EntryAdSteps.verify_Display_message(String)"
 });
 formatter.result({
-  "duration": 43679200,
+  "duration": 38124400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 650715800,
+  "duration": 677933300,
   "status": "passed"
 });
 formatter.uri("FileDownload.feature");
@@ -97,7 +97,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3092888200,
+  "duration": 3286547100,
   "status": "passed"
 });
 formatter.scenario({
@@ -120,7 +120,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User Click on logo png module",
+  "name": "User Click on text document module",
   "keyword": "And "
 });
 formatter.step({
@@ -132,32 +132,32 @@ formatter.match({
   "location": "FileDownloadSteps.browse_to_the_internet_home_page()"
 });
 formatter.result({
-  "duration": 2881909400,
+  "duration": 3010256900,
   "status": "passed"
 });
 formatter.match({
   "location": "FileDownloadSteps.user_Click_on_File_Download()"
 });
 formatter.result({
-  "duration": 2199592200,
+  "duration": 2270585500,
   "status": "passed"
 });
 formatter.match({
-  "location": "FileDownloadSteps.user_Click_on_logo_png_module()"
+  "location": "FileDownloadSteps.user_Click_on_text_document_module()"
 });
 formatter.result({
-  "duration": 2111899900,
+  "duration": 2181016800,
   "status": "passed"
 });
 formatter.match({
   "location": "FileDownloadSteps.user_can_verify_File_has_been_downloaded_Successfully()"
 });
 formatter.result({
-  "duration": 2000886300,
+  "duration": 2001292700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 657542300,
+  "duration": 734856300,
   "status": "passed"
 });
 formatter.uri("FileUpload.feature");
@@ -175,7 +175,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3095975200,
+  "duration": 3230028400,
   "status": "passed"
 });
 formatter.scenario({
@@ -221,39 +221,39 @@ formatter.match({
   "location": "FileUploadSteps.browse_to(String)"
 });
 formatter.result({
-  "duration": 2972175600,
+  "duration": 2990610500,
   "status": "passed"
 });
 formatter.match({
   "location": "FileUploadSteps.click_on_File_Upload()"
 });
 formatter.result({
-  "duration": 2234613600,
+  "duration": 2542196500,
   "status": "passed"
 });
 formatter.match({
   "location": "FileUploadSteps.click_on_Choose_File()"
 });
 formatter.result({
-  "duration": 2052986200,
+  "duration": 2072826200,
   "status": "passed"
 });
 formatter.match({
   "location": "FileUploadSteps.click_upload_button()"
 });
 formatter.result({
-  "duration": 2306748800,
+  "duration": 2530143400,
   "status": "passed"
 });
 formatter.match({
   "location": "FileUploadSteps.verify_file_has_been_uploaded()"
 });
 formatter.result({
-  "duration": 2034033200,
+  "duration": 2109140500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 644521000,
+  "duration": 728394200,
   "status": "passed"
 });
 formatter.uri("HorizontalSlider.feature");
@@ -271,7 +271,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3114042600,
+  "duration": 3365174900,
   "status": "passed"
 });
 formatter.scenario({
@@ -306,32 +306,32 @@ formatter.match({
   "location": "HorizontalSliderSteps.user_browses_to_The_Internet_homepage()"
 });
 formatter.result({
-  "duration": 3222199300,
+  "duration": 3142963400,
   "status": "passed"
 });
 formatter.match({
   "location": "HorizontalSliderSteps.user_navigates_to_the_horizontal_slider_module()"
 });
 formatter.result({
-  "duration": 2232743300,
+  "duration": 2253701000,
   "status": "passed"
 });
 formatter.match({
   "location": "HorizontalSliderSteps.set_the_slider_by_sliding_it_horizontally()"
 });
 formatter.result({
-  "duration": 2401824100,
+  "duration": 2413280300,
   "status": "passed"
 });
 formatter.match({
   "location": "HorizontalSliderSteps.user_can_see_the_value_he_is_indicating_to()"
 });
 formatter.result({
-  "duration": 29133800,
+  "duration": 35781700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 634178400,
+  "duration": 1472627800,
   "status": "passed"
 });
 formatter.uri("JSalert.feature");
@@ -349,7 +349,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3118718200,
+  "duration": 3183930700,
   "status": "passed"
 });
 formatter.scenario({
@@ -389,39 +389,39 @@ formatter.match({
   "location": "JSalertSteps.browse_to_the_internet_herokuapp_website()"
 });
 formatter.result({
-  "duration": 2978548400,
+  "duration": 2868839000,
   "status": "passed"
 });
 formatter.match({
   "location": "JSalertSteps.click_on_the_JavaScript_Alert_module()"
 });
 formatter.result({
-  "duration": 3213192800,
+  "duration": 3226361900,
   "status": "passed"
 });
 formatter.match({
   "location": "JSalertSteps.click_on_Click_for_JS_alert_button()"
 });
 formatter.result({
-  "duration": 65685900,
+  "duration": 66212600,
   "status": "passed"
 });
 formatter.match({
   "location": "JSalertSteps.click_on_Ok_button_to_confirm()"
 });
 formatter.result({
-  "duration": 3008082000,
+  "duration": 3019910800,
   "status": "passed"
 });
 formatter.match({
   "location": "JSalertSteps.verify_that_alert_button_is_sucessfully_accepted()"
 });
 formatter.result({
-  "duration": 35797500,
+  "duration": 41571600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1111764100,
+  "duration": 662392300,
   "status": "passed"
 });
 formatter.uri("JSconfirm.feature");
@@ -439,7 +439,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3077080700,
+  "duration": 3321424300,
   "status": "passed"
 });
 formatter.scenario({
@@ -479,39 +479,39 @@ formatter.match({
   "location": "JSconfirmSteps.user_browses_to_https_the_internet_herokuapp_com_homepage()"
 });
 formatter.result({
-  "duration": 3039089800,
+  "duration": 3004422100,
   "status": "passed"
 });
 formatter.match({
   "location": "JSconfirmSteps.user_clicks_on_JavaScript_Alerts_link()"
 });
 formatter.result({
-  "duration": 3202900000,
+  "duration": 3224385800,
   "status": "passed"
 });
 formatter.match({
   "location": "JSconfirmSteps.user_clicks_on_JS_Confirm_button()"
 });
 formatter.result({
-  "duration": 3060935500,
+  "duration": 3056514300,
   "status": "passed"
 });
 formatter.match({
   "location": "JSconfirmSteps.user_click_on_Ok_button()"
 });
 formatter.result({
-  "duration": 3008707800,
+  "duration": 3009998900,
   "status": "passed"
 });
 formatter.match({
   "location": "JSconfirmSteps.user_will_be_able_to_verify_results_for_click_for_JS_Confirm()"
 });
 formatter.result({
-  "duration": 2042157700,
+  "duration": 2044920600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 658880000,
+  "duration": 703455700,
   "status": "passed"
 });
 formatter.uri("JSprompt.feature");
@@ -585,7 +585,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3089084100,
+  "duration": 3227470100,
   "status": "passed"
 });
 formatter.scenario({
@@ -637,21 +637,21 @@ formatter.match({
   "location": "JSpromptSteps.browse_to_http_the_internet_herokuapp_com_Homepage()"
 });
 formatter.result({
-  "duration": 2954487900,
+  "duration": 3193387800,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptSteps.click_on_the_JavaScript_Alerts_link()"
 });
 formatter.result({
-  "duration": 3239097600,
+  "duration": 3258937900,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptSteps.click_on_Click_for_JS_Prompt_button()"
 });
 formatter.result({
-  "duration": 3059091400,
+  "duration": 3080782800,
   "status": "passed"
 });
 formatter.match({
@@ -664,7 +664,7 @@ formatter.match({
   "location": "JSpromptSteps.insert_on_textbox_and_accepts_prompt_alert(String)"
 });
 formatter.result({
-  "duration": 2020729000,
+  "duration": 2025802900,
   "status": "passed"
 });
 formatter.match({
@@ -677,11 +677,11 @@ formatter.match({
   "location": "JSpromptSteps.verify_result_confirmation_matches(String)"
 });
 formatter.result({
-  "duration": 44725100,
+  "duration": 49798400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 643900700,
+  "duration": 669743800,
   "status": "passed"
 });
 formatter.uri("JSpromptCancel.feature");
@@ -699,7 +699,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3088989800,
+  "duration": 3177355800,
   "status": "passed"
 });
 formatter.scenario({
@@ -739,39 +739,39 @@ formatter.match({
   "location": "JSpromptSteps.browse_to_http_the_internet_herokuapp_com_Homepage()"
 });
 formatter.result({
-  "duration": 2937569800,
+  "duration": 3242618000,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptSteps.click_on_the_JavaScript_Alerts_link()"
 });
 formatter.result({
-  "duration": 3236275400,
+  "duration": 3289712800,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptSteps.click_on_Click_for_JS_Prompt_button()"
 });
 formatter.result({
-  "duration": 3058821600,
+  "duration": 3059242600,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptCancelSteps.dismiss_prompt_alert()"
 });
 formatter.result({
-  "duration": 7576000,
+  "duration": 8857900,
   "status": "passed"
 });
 formatter.match({
   "location": "JSpromptCancelSteps.verify_result_confirmation_is_null()"
 });
 formatter.result({
-  "duration": 42279300,
+  "duration": 45130300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 649535600,
+  "duration": 700086800,
   "status": "passed"
 });
 formatter.uri("RetrievePassword.feature");
@@ -840,7 +840,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3091933500,
+  "duration": 3253849800,
   "status": "passed"
 });
 formatter.scenario({
@@ -884,14 +884,14 @@ formatter.match({
   "location": "RetrievePasswordSteps.browses_to_the_internet_home_page()"
 });
 formatter.result({
-  "duration": 2871673800,
+  "duration": 2962455000,
   "status": "passed"
 });
 formatter.match({
   "location": "RetrievePasswordSteps.clicks_on_the_forgot_password_module()"
 });
 formatter.result({
-  "duration": 2207580600,
+  "duration": 2386870500,
   "status": "passed"
 });
 formatter.match({
@@ -904,18 +904,18 @@ formatter.match({
   "location": "RetrievePasswordSteps.enter_and_click_on_retrieve_password_button(String)"
 });
 formatter.result({
-  "duration": 3479234700,
+  "duration": 2607040000,
   "status": "passed"
 });
 formatter.match({
   "location": "RetrievePasswordSteps.user_will_get_a_confirmation_message()"
 });
 formatter.result({
-  "duration": 2035853200,
+  "duration": 2029402500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 646087200,
+  "duration": 669688900,
   "status": "passed"
 });
 });

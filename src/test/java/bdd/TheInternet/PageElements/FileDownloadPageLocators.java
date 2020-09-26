@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class FileDownloadPageLocators {
 	
-	@FindBy (xpath="//a[contains(text(),'logo.png')]")
+	@FindBy (xpath="//a[contains(text(),'some-file.txt')]")
 	public WebElement lnkFileImage;
 
 	
