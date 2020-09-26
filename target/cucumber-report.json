@@ -1,0 +1,977 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4026285900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "close the popup window.",
+        "description": "",
+        "id": "entry-ad;close-the-popup-window.",
+        "after": [
+          {
+            "result": {
+              "duration": 650715800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2995762300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Browses to http://the-internet.herokuapp.com",
+            "match": {
+              "location": "EntryAdSteps.user_Browses_to_http_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2204278900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Entry Ad",
+            "match": {
+              "location": "EntryAdSteps.user_navigates_to_Entry_Ad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3060039700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on close button",
+            "match": {
+              "location": "EntryAdSteps.user_clicks_on_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43679200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Display message \"Entry Ad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Entry Ad",
+                  "offset": 24
+                }
+              ],
+              "location": "EntryAdSteps.verify_Display_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Entry Ad",
+    "description": "",
+    "id": "entry-ad",
+    "keyword": "Feature",
+    "uri": "EntryAd.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3092888200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User is able to Download a PNG File",
+        "description": "",
+        "id": "file-download;user-is-able-to-download-a-png-file",
+        "after": [
+          {
+            "result": {
+              "duration": 657542300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2881909400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the internet home page",
+            "match": {
+              "location": "FileDownloadSteps.browse_to_the_internet_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2199592200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on File Download",
+            "match": {
+              "location": "FileDownloadSteps.user_Click_on_File_Download()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2111899900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on logo png module",
+            "match": {
+              "location": "FileDownloadSteps.user_Click_on_logo_png_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000886300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can verify File has been downloaded Successfully",
+            "match": {
+              "location": "FileDownloadSteps.user_can_verify_File_has_been_downloaded_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "File Download",
+    "description": "",
+    "id": "file-download",
+    "keyword": "Feature",
+    "uri": "FileDownload.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3095975200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User able to upload a file",
+        "description": "",
+        "id": "file-upload;user-able-to-upload-a-file",
+        "after": [
+          {
+            "result": {
+              "duration": 644521000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2972175600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to \"https://the-internet.herokuapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://the-internet.herokuapp.com/",
+                  "offset": 11
+                }
+              ],
+              "location": "FileUploadSteps.browse_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2234613600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on File Upload",
+            "match": {
+              "location": "FileUploadSteps.click_on_File_Upload()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2052986200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Choose File",
+            "match": {
+              "location": "FileUploadSteps.click_on_Choose_File()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2306748800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click upload button",
+            "match": {
+              "location": "FileUploadSteps.click_upload_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034033200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify file has been uploaded",
+            "match": {
+              "location": "FileUploadSteps.verify_file_has_been_uploaded()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "File Upload",
+    "description": "",
+    "id": "file-upload",
+    "keyword": "Feature",
+    "uri": "FileUpload.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3114042600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can slide the slider horizontally",
+        "description": "",
+        "id": "horizontal-slider;user-can-slide-the-slider-horizontally",
+        "after": [
+          {
+            "result": {
+              "duration": 634178400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3222199300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User browses to The Internet homepage",
+            "match": {
+              "location": "HorizontalSliderSteps.user_browses_to_The_Internet_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2232743300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to the horizontal slider module",
+            "match": {
+              "location": "HorizontalSliderSteps.user_navigates_to_the_horizontal_slider_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2401824100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set the slider by sliding it horizontally",
+            "match": {
+              "location": "HorizontalSliderSteps.set_the_slider_by_sliding_it_horizontally()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29133800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can see the value he is indicating to",
+            "match": {
+              "location": "HorizontalSliderSteps.user_can_see_the_value_he_is_indicating_to()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Horizontal Slider",
+    "description": "",
+    "id": "horizontal-slider",
+    "keyword": "Feature",
+    "uri": "HorizontalSlider.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3118718200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User will be able to confirm JS Alert",
+        "description": "",
+        "id": "confirm-js-alert;user-will-be-able-to-confirm-js-alert",
+        "after": [
+          {
+            "result": {
+              "duration": 1111764100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2978548400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the internet.herokuapp website",
+            "match": {
+              "location": "JSalertSteps.browse_to_the_internet_herokuapp_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3213192800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the JavaScript Alert module",
+            "match": {
+              "location": "JSalertSteps.click_on_the_JavaScript_Alert_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65685900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Click for JS alert button",
+            "match": {
+              "location": "JSalertSteps.click_on_Click_for_JS_alert_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008082000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Ok button to confirm",
+            "match": {
+              "location": "JSalertSteps.click_on_Ok_button_to_confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35797500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify that alert button is sucessfully accepted",
+            "match": {
+              "location": "JSalertSteps.verify_that_alert_button_is_sucessfully_accepted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Confirm JS Alert",
+    "description": "",
+    "id": "confirm-js-alert",
+    "keyword": "Feature",
+    "uri": "JSalert.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3077080700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can accept confirm alert",
+        "description": "",
+        "id": "confirm-click-for-js-confirm-alert;user-can-accept-confirm-alert",
+        "after": [
+          {
+            "result": {
+              "duration": 658880000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3039089800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user browses to https://the-internet.herokuapp.com homepage",
+            "match": {
+              "location": "JSconfirmSteps.user_browses_to_https_the_internet_herokuapp_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3202900000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on JavaScript Alerts link",
+            "match": {
+              "location": "JSconfirmSteps.user_clicks_on_JavaScript_Alerts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3060935500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on JS Confirm button",
+            "match": {
+              "location": "JSconfirmSteps.user_clicks_on_JS_Confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008707800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Ok button",
+            "match": {
+              "location": "JSconfirmSteps.user_click_on_Ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042157700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will be able to verify results for click for JS Confirm",
+            "match": {
+              "location": "JSconfirmSteps.user_will_be_able_to_verify_results_for_click_for_JS_Confirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Confirm Click for JS confirm alert",
+    "description": "",
+    "id": "confirm-click-for-js-confirm-alert",
+    "keyword": "Feature",
+    "uri": "JSconfirm.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3089084100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User can confirm Click for JS prompt alert",
+        "description": "",
+        "id": "confirm-click-for-js-prompt-alert;user-can-confirm-click-for-js-prompt-alert;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 643900700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2954487900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to  http://the-internet.herokuapp.com Homepage",
+            "match": {
+              "location": "JSpromptSteps.browse_to_http_the_internet_herokuapp_com_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3239097600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the JavaScript Alerts link",
+            "match": {
+              "location": "JSpromptSteps.click_on_the_JavaScript_Alerts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059091400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Click for JS Prompt button",
+            "match": {
+              "location": "JSpromptSteps.click_on_Click_for_JS_Prompt_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2020729000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Insert \"abc12\" on textbox and accepts prompt alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc12",
+                  "offset": 8
+                }
+              ],
+              "location": "JSpromptSteps.insert_on_textbox_and_accepts_prompt_alert(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44725100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify  result confirmation matches \"abc12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc12",
+                  "offset": 37
+                }
+              ],
+              "location": "JSpromptSteps.verify_result_confirmation_matches(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Confirm Click for JS prompt alert",
+    "description": "",
+    "id": "confirm-click-for-js-prompt-alert",
+    "keyword": "Feature",
+    "uri": "JSprompt.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3088989800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User can cancel Click for JS prompt alert",
+        "description": "",
+        "id": "cancel-click-for-js-prompt-alert;user-can-cancel-click-for-js-prompt-alert",
+        "after": [
+          {
+            "result": {
+              "duration": 649535600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937569800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to  http://the-internet.herokuapp.com Homepage",
+            "match": {
+              "location": "JSpromptSteps.browse_to_http_the_internet_herokuapp_com_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3236275400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on the JavaScript Alerts link",
+            "match": {
+              "location": "JSpromptSteps.click_on_the_JavaScript_Alerts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3058821600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Click for JS Prompt button",
+            "match": {
+              "location": "JSpromptSteps.click_on_Click_for_JS_Prompt_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7576000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Dismiss prompt alert",
+            "match": {
+              "location": "JSpromptCancelSteps.dismiss_prompt_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42279300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify  result confirmation is null",
+            "match": {
+              "location": "JSpromptCancelSteps.verify_result_confirmation_is_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cancel Click for JS prompt alert",
+    "description": "",
+    "id": "cancel-click-for-js-prompt-alert",
+    "keyword": "Feature",
+    "uri": "JSpromptCancel.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3091933500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User can retrieve a password by entering his email",
+        "description": "",
+        "id": "retrieve-forgotten-password;user-can-retrieve-a-password-by-entering-his-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 646087200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2871673800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browses to the internet home page",
+            "match": {
+              "location": "RetrievePasswordSteps.browses_to_the_internet_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2207580600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicks on the forgot password module",
+            "match": {
+              "location": "RetrievePasswordSteps.clicks_on_the_forgot_password_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3479234700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter \"abc@aol.com\" and click on retrieve password button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@aol.com",
+                  "offset": 7
+                }
+              ],
+              "location": "RetrievePasswordSteps.enter_and_click_on_retrieve_password_button(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035853200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will get a confirmation message",
+            "match": {
+              "location": "RetrievePasswordSteps.user_will_get_a_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve forgotten password",
+    "description": "",
+    "id": "retrieve-forgotten-password",
+    "keyword": "Feature",
+    "uri": "RetrievePassword.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

@@ -39,5 +39,26 @@ public void ClickEntryAD() throws Exception{
 		
 	}
 
+	public void HorizontalSlider() throws Exception{
+		
+		Thread.sleep(2000);
+		HomePageLocatorObj.lnkHorizSlider.click();
+	}
 	
+	public void FileDownload() throws Exception{
+		
+		Thread.sleep(2000);
+		HomePageLocatorObj.lnkFileDwnld.click();
+	}
+	
+	public void clickFileUpload() throws Exception{
+		
+		Thread.sleep(2000);
+		HomePageLocatorObj.lnkFileUpload.click();
+		}
+	
+	public void retrievePass() throws Exception{
+		Thread.sleep(2000);
+		HomePageLocatorObj.lnkRetPwd.click();
+	}
 }
